@@ -31,10 +31,8 @@ int main()
         memset(f, 0, sizeof(f));
         int j = 0, r = 0, res = 1;
         for(int i = 0; i < len; i++) {
-            if(i < r) f[i] = min(f[j + j - i], f[j] - 2 * (i - j)); // AC
-            // if(i < r) f[i] = f[j + j - i]; // TLE
-            // Why, min(a, b) <= a !== true ?
-            if(f[i] < 1) f[i] = 1;
+            if(i < r) f[i] = min(f[j + j - i], f[j] - 2 * (i - j));
+            else f[i] = 1;
 
             int m = f[i] / 2 + 1;
             while(str[i - m] == str[i + m])
