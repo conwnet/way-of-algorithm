@@ -3,15 +3,15 @@
 ## 题目链接
 
 * [POJ](http://poj.org/problem?id=3468)
-* [百练](http://bailian.openjudge.cn/practice/3439/)
+* [百练](http://bailian.openjudge.cn/practice/3439/)
 * [百练](http://bailian.openjudge.cn/practice/3243/)
 
 ## 题目描述
 
-给定一个数组，包含 N 个元素 A1, A, ..., AN。定义两种操作：
+给定一个数组，包含 N 个元素 A1, A, ..., AN。定义两种操作：
 
-* `C a b c` => 把区间 [a, b] 中的所有元素都加上 x
-* `Q a b` => 查询区间 [a, b] 中所有元素的和）
+* `C a b c` => 把区间 [a, b] 中的所有元素都加上 x
+* `Q a b` => 查询区间 [a, b] 中所有元素的和）
 
 共有 Q 次操作，输出每次查询操作的结果。
 
